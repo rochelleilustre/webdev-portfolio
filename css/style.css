@@ -1,0 +1,63 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; /*to avoid overflowing elements*/
+	/*box-sizing: content-box; default box-sizing*/
+}
+
+.clear:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+
+body {
+	background-color: black;
+}
+
+.navbar-default {
+	background-color: #1CABB4;/*natural enthusiasm*/
+	border-radius: 0;
+	border-color: #1CABB4;/*natural enthusiasm*/
+}	
+
+.navbar {
+    margin-bottom: 0;
+ }
+
+ b, strong,
+ .navbar-default .navbar-nav>li>a {
+  	color: white;
+ }
+
+.home {
+	height: 600px;
+	background-color: #F1FFEF/*blue white*/
+}
+
+.work {
+	height: 600px;
+	background-color: #5B88A5/*blue*/
+}
+
+.about {
+	height: 600px;
+	background-color: #F4F4F2/*wisp*/
+}
+
+.contact {
+	height: 600px;
+	background-color: #D4CDC5/*steam4*/
+}
+
+.footer {
+	height: 100px;
+	background-color: #27242B/*gris*/
+}
+
+.footer-section {
+	text-align: center;
+	color: #fefefe;
+	padding: 10px;
+}
