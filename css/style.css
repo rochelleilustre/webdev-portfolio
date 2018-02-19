@@ -32,8 +32,21 @@ body {
  }
 
 .home {
+	margin: 0 auto;
 	height: 600px;
-	background-color: #F1FFEF/*blue white*/
+	/*background-color: #F1FFEFblue white*/
+	background: url(../img/bg-portfolio.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.text-vertical-center {
+	margin: 0 auto;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    
+    
 }
 
 .work {
