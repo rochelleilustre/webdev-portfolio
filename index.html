@@ -19,10 +19,11 @@
   	<!-- import custom css -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
+	
 </head>
 <body>
 
-	<nav class="navbar navbar-default">
+	<nav class="navbar navbar-inverse">
   		<div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     		<div class="navbar-header">
@@ -49,16 +50,80 @@
 	</nav>
 
 
-	<div id="home" class="home ">
-		<div class="home-section text-vertical-center container">
-		<h2>Hello there!</h2>
-		</div>	
+	<div class="home ">
+		<div id="home-section">
+		<h1>Hello, I'm <br>Chellie Ilustre.</h1>
+		<h6>Web Developer + Graphic Artist</h6>
+		<a href="#work" class="btn btn-info" role="button">CHECK PORTFOLIO</a>
+		</div><!-- end of home-section -->	
 	</div><!-- end of home -->
 
-	<div id="work" class="work ">
-		<div class="work-section container">
-		<h2>Work</h2>
-		</div>	
+	<div id="work" class="work" role="navigation">
+		<div class="container" id="work-section" >
+
+			<ul class="nav nav-tabs">
+			  <li role="presentation" class="active"><a href="#all">ALL</a></li>
+			  <li role="presentation"><a href="#web">WEB</a></li>
+			  <li role="presentation"><a href="#graphics">GRAPHICS</a></li>
+			  <li role="presentation"><a href="#photography">PHOTOGRAPHY</a></li>
+			</ul>
+
+			<div class="row" id="all web">
+				<div class="col-xs-6 col-md-3">
+					<a href="#" class="thumbnail">
+				    	<img src="http://lorempixel.com/300/300/" alt="">
+				    </a>
+				</div>
+			  	
+			  	<div class="col-xs-6 col-md-3" >
+					<a href="#" class="thumbnail">
+				    	<img src="http://lorempixel.com/300/300/" alt="">
+				    </a>
+				</div>
+
+				<div class="col-xs-6 col-md-3">
+					<a href="#" class="thumbnail">
+				    	<img src="http://lorempixel.com/300/300/" alt="">
+				    </a>
+				</div>
+			  	
+			  	<div class="col-xs-6 col-md-3">
+					<a href="#" class="thumbnail">
+				    	<img src="http://lorempixel.com/300/300/" alt="">
+				    </a>
+				</div>
+			</div><!-- end of row -->
+
+			<div class="row" id="all graphics">
+				<div class="col-xs-6 col-md-3">
+					<a href="#" class="thumbnail">
+				    	<img src="http://lorempixel.com/300/300/" alt="">
+				    </a>
+				</div>
+			  	
+			  	<div class="col-xs-6 col-md-3">
+					<a href="#" class="thumbnail">
+				    	<img src="http://lorempixel.com/300/300/" alt="">
+				    </a>
+				</div>
+
+				<div class="col-xs-6 col-md-3">
+					<a href="#" class="thumbnail">
+				    	<img src="http://lorempixel.com/300/300/" alt="">
+				    </a>
+				</div>
+			  	
+			  	<div class="col-xs-6 col-md-3">
+					<a href="#" class="thumbnail">
+				    	<img src="http://lorempixel.com/300/300/" alt="">
+				    </a>
+				</div>
+			</div><!-- end of row -->
+
+
+
+
+		</div><!-- end of container -->	
 	</div><!-- end of work -->
 
 	<div id="about" class="about ">
@@ -80,6 +145,8 @@
 
 
 
+  
+
 
 	<!-- import jquery -->
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -87,6 +154,11 @@
   <!-- import boostrap js -->
   <script type="text/javascript" src="bootstrap-3.3.7-dist/js/bootstrap.min.js">	
   </script>
+
+  <!-- import custom js -->
+  <script type="text/javascript" src="js/script.js"></script>
+
+
 
 </body>
 </html>
