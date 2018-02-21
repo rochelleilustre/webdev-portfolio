@@ -55,7 +55,7 @@ body {
 }
 
 #home-section>h1, h6{
-	margin-bottom: 8px;
+	margin-bottom: 20px;
 }
 
 #home-section>.btn {
@@ -78,6 +78,8 @@ body {
 .thumbnail {
 	background-color: transparent;
 }
+
+
 
 .nav-tabs {
 	border: 0;
