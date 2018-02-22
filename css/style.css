@@ -80,7 +80,6 @@ body {
 }
 
 
-
 .nav-tabs {
 	border: 0;
 }
@@ -101,8 +100,22 @@ body {
 }
 
 .contact {
-	height: 600px;
+	height: auto;
 	background-color: #D4CDC5/*steam4*/
+}
+
+.contact-details {
+	
+	margin-bottom: 20px;
+}
+
+.contact-section {
+	padding-top: 40px;
+}
+
+.contact-form-section {
+	background-color: lightblue;
+	padding: 50px;
 }
 
 .footer {
