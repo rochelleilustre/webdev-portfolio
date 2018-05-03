@@ -4,10 +4,6 @@ html {
   height: 100%;
 }
 
-body {
-  font-family: 'Source Sans Pro';
-}
-
 #me {
   height: 200px;
   border-radius: 50%;
@@ -15,6 +11,16 @@ body {
   border-width: 2px;
   border-color: #907e7e;
   top: 50px;
+}
+
+#csp3{
+    width: 1024px;
+    height: 336px;
+  }
+
+
+body {
+  font-family: 'Source Sans Pro';
 }
 
 .btn-xl {
@@ -223,7 +229,7 @@ h6 {
 }
 
 .callout {
-  /*padding: 5rem 0;*/
+  padding: 15rem 0;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-callout.jpg");
   background-position: center center;
   background-repeat: no-repeat;
@@ -287,12 +293,6 @@ h6 {
     margin-right: 5rem;
     margin-bottom: 5rem;
   }
-
-  #csp3{
-    width: 1024px;
-    height: 336px;
-  }
-
   .portfolio-item img {
     -webkit-transition: -webkit-clip-path 0.25s ease-out;
     -webkit-clip-path: inset(-1px);
