@@ -2,10 +2,11 @@
   list-style: none;
   padding: 20px 0 20px;
   position: relative;
+  padding-bottom: 0;
 }
 
 .text-muted{
-  color:rgba(222, 226, 230, 1) !important;
+  color: #17a2b8 !important;
 }
 
 .timeline:before {
@@ -151,4 +152,18 @@
 
 .timeline-body > p + p {
   margin-top: 5px;
+}
+
+/* media queries*/
+
+@media screen and (max-width: 468px) {
+
+  .timeline > li > .timeline-panel {
+    width: 100%;
+  }
+
+  .timeline:before,
+  .timeline > li > .timeline-badge {
+    visibility: hidden;
+  }
 }
