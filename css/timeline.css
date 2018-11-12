@@ -2,11 +2,10 @@
   list-style: none;
   padding: 20px 0 20px;
   position: relative;
-  padding-bottom: 0;
 }
 
 .text-muted{
-  color: #17a2b8 !important;
+  color:rgba(222, 226, 230, 1) !important;
 }
 
 .timeline:before {
