@@ -21,3 +21,7 @@ h2{
 .btn-light {
 	width: 172px;
 }
+
+.idf {
+    border: 1px dotted gray;
+}
