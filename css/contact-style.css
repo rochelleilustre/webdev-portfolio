@@ -24,5 +24,6 @@ h2{
 
 .idf {
     border: 1px dotted gray;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    padding: 20px;
 }
